@@ -36,7 +36,7 @@ public class Fenster {
 			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				String name = JOptionPane.showInputDialog(fenster, "What is your nickname?", null);
-				System.out.println("das Fester sollte zu sehen sein !!!!!!" + "    " + name);
+				System.out.println("das Fester sollte zu sehen sein " + "    " + name+ "  rgdr ");
 			}
 		});
 

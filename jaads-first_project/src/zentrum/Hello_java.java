@@ -10,7 +10,7 @@ public class Hello_java {
 		
 		sagHallo("jaad");
 		sagHallo("naim");
-		sagCiao("hhhh");
+		sagCiao("salma","mama");
 
 	}
 	
@@ -21,9 +21,9 @@ public class Hello_java {
 		
 	}
 	
-    private static void sagCiao (String name) {		
+    private static void sagCiao (String name, String name2) {		
 		
-		System.out.println("Ciao alle");	
+		System.out.println("Ciao alle !! auch"+ leerzeichen+ name+leerzeichen+name2);	
 		
 	}
 
