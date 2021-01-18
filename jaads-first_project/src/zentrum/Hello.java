@@ -1,6 +1,6 @@
 package zentrum;
 
-public class Hello_java {
+ class Hello {
 	
 	static String leerzeichen = " ";
 	static String semincolone = ";";
@@ -9,10 +9,14 @@ public class Hello_java {
 	public static void main(String[] args) {
 		
 		sagHallo("jaad");
-		sagHallo("naim");
-		sagCiao("salma","mama");
+		
+
 
 	}
+	
+	
+	
+	
 	
 	
 	public static void sagHallo (String name) {		
@@ -21,10 +25,6 @@ public class Hello_java {
 		
 	}
 	
-    private static void sagCiao (String name, String name2) {		
-		
-		System.out.println("Ciao alle !! auch"+ leerzeichen+ name+leerzeichen+name2);	
-		
-	}
+
 
 }

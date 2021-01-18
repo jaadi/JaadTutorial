@@ -19,13 +19,21 @@ public class Fenster {
 		
 		JButton button2 = new JButton();
 		button2.setText("ende!");
-		button2.setPreferredSize(new Dimension(100, 100));		
+		button2.setPreferredSize(new Dimension(100, 60));		
+		
+		
+		JButton button3 = new JButton();
+		button3.setText("garage");
+		button3.setSize(60, 60);
+		
 		
 		JPanel panel = new JPanel();		
 		panel.add(button);
 		panel.add(button2);
-
-		fenster.add(panel);
+        panel.add(button3);
+		
+        
+        fenster.add(panel);
 		fenster.setSize(600, 200);
 		//fenster.pack();
 		fenster.setVisible(true);
@@ -40,6 +48,17 @@ public class Fenster {
 			}
 		});
 
+		
+		button3.addActionListener(new java.awt.event.ActionListener() {
+			@Override
+			public void actionPerformed(java.awt.event.ActionEvent evt) {
+			
+				System.out.println("hallo salma und mama ");
+			}
+		});
+		
+		
+		
 		button2.addActionListener(new java.awt.event.ActionListener() {
 			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
